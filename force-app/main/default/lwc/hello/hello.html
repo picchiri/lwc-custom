@@ -1,0 +1,26 @@
+<template>
+
+    <lightning-card title={ciao} icon-name="action:goal">
+
+
+        <div class="slds-grid slds-gutters">
+            <div class="slds-col slds-size_3-of-5">
+                <div class="slds-m-around_medium">
+                    {ciao}, {greeting}!
+                </div>
+            </div>
+            <div class="slds-col slds-size_2-of-5">
+                <div class="slds-m-around_medium">
+                    <lightning-button label='Chi sono' value='about' id="about"  onclick={handleBtnClick}></lightning-button>
+                </div>
+            </div>
+        </div>
+        
+
+        <c-view-source source="lwc/hello" slot="footer">
+            Bind an HTML element to a component property. Ceck
+        </c-view-source>
+
+    </lightning-card>
+
+</template>

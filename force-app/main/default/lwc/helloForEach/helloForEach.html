@@ -1,0 +1,18 @@
+<template>
+
+    <lightning-card title="HelloForEach" icon-name="action:goal">
+
+        <ul class="slds-m-around_medium">
+            <template for:each={contacts} for:item="contact">
+                <li key={contact.Id}>
+                    {contact.Name}, {contact.Title}
+                </li>
+            </template>
+        </ul>
+        <c-view-source source="lwc/helloForEach" slot="footer">
+            Il file css deve avere lo stesso nome del file html e js a differenza dell'estensione
+        </c-view-source>
+
+    </lightning-card>
+
+</template>

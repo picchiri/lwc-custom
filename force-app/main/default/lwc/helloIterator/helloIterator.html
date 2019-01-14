@@ -1,0 +1,21 @@
+<template>
+
+    <lightning-card title="HelloIterator" icon-name="action:announcement">
+
+        <ul class="slds-m-around_medium">
+            <template iterator:it={contacts}>
+                <li key={it.value.Id}>
+                    <div if:true={it.first} class="list-first"></div>
+                    {it.value.Name}, {it.value.Title}
+                    <div if:true={it.last} class="list-last"></div>
+                </li>
+            </template>
+        </ul>
+
+        <c-view-source source="lwc/helloIterator" slot="footer">
+            Credo che questo esempio sia presente un errore
+        </c-view-source>
+
+    </lightning-card>
+
+</template>

@@ -1,0 +1,19 @@
+<template>
+
+    <lightning-card title="HelloBinding" icon-name="action:goal">
+
+        <div class="slds-m-around_medium">
+            <p>Inserisci il tuo numero di telefono</p>
+            <lightning-input label="Name"  onchange={handleChange}></lightning-input>
+            <p id='binding'>Binding: {greeting}</p>
+        </div>
+
+        <c-view-source source="lwc/helloBinding" slot="footer">
+            Nella prima modifica <b>Hello</b> ho fatto qualche cambiamento lato <strong>html</strong> e 
+            qualche modifica lato <u>js</u> con l'innesto di una funzione. In questa modifica ho potuto 
+            verificare anche l'utilizzo di alcuni tag html
+        </c-view-source>
+
+    </lightning-card>
+
+</template>
