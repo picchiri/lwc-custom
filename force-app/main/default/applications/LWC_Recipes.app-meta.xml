@@ -21,6 +21,7 @@
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <label>LWC</label>
     <navType>Standard</navType>
+    <tabs>Picchiri</tabs>
     <tabs>Hello</tabs>
     <tabs>Apex</tabs>
     <tabs>Data_Service</tabs>
