@@ -9,7 +9,7 @@
             <componentName>accordation</componentName>
         </componentInstances>
         <componentInstances>
-            <componentName>helloBinding</componentName>
+            <componentName>formatterAddress</componentName>
         </componentInstances>
         <name>region2</name>
         <type>Region</type>
