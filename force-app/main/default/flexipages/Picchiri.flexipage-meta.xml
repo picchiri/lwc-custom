@@ -6,7 +6,7 @@
     </flexiPageRegions>
     <flexiPageRegions>
         <componentInstances>
-            <componentName>hello</componentName>
+            <componentName>accordation</componentName>
         </componentInstances>
         <componentInstances>
             <componentName>helloBinding</componentName>
