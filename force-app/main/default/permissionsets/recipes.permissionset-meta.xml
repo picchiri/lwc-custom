@@ -131,6 +131,10 @@
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <tabSettings>
+        <tab>Picchiri</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
+    <tabSettings>
         <tab>Apex</tab>
         <visibility>Visible</visibility>
     </tabSettings>
