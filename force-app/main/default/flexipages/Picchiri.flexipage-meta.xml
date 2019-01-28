@@ -34,7 +34,7 @@
         <name>region4</name>
         <type>Region</type>
     </flexiPageRegions>
-    <masterLabel>Hello</masterLabel>
+    <masterLabel>Picchiri</masterLabel>
     <template>
         <name>flexipage:appHomeTemplateHeaderThreeColumns</name>
     </template>
